@@ -14,7 +14,7 @@ namespace StaticExerciseUI
             Console.WriteLine("What is the temperature in Celcius?");
             var celcius2 = int.Parse(Console.ReadLine());
             var fahrenheit2 = TempConverter.CelsiusToFahrenheit(celcius2);
-            Console.WriteLine($"The temperature converted to Fahreneit is {fahrenheit2}");
+            Console.WriteLine($"The temperature converted to Fahreneit is {fahrenheit2}"); 
 
         }
     }
